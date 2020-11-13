@@ -165,6 +165,11 @@ article p{
     color: #0bd;
 }
 
+/* iframe */
+iframe{
+    width: 100%;
+}
+
 /*MENU
 --------------------------------------------------*/
 #menu{
@@ -240,6 +245,26 @@ input[type="submit"]{
     cursor: pointer;
     line-height: 1;;
 }
+
+/* 店舗情報・地図 */
+#location{
+    padding: 4% 0;
+}
+#location .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.location-info{
+    width: 22%;
+}
+.location-info p{
+    padding: 12px 10px;
+}
+.location-map{
+    width: 74%;
+}
+
+
 /*フッター
 --------------------------------------------------*/
 footer{
@@ -350,28 +375,5 @@ aside{
     input[type="email"],
     textarea{
         max-width: 100%;
-    }
-
-    /* 店舗情報・地図 */
-    #location{
-        padding: 4% 0;
-    }
-    #location .wrapper{
-        display: flex;
-        justify-content: space-between;
-    }
-    .location-info{
-        width: 22%;
-    }
-    .location-info p{
-        padding: 12px 10px;
-    }
-    .location-map{
-        width: 74%;
-    }
-
-    /* iframe */
-    iframe{
-        width: 100%;
     }
 }
